@@ -1,0 +1,12 @@
+{
+  "name": "token-test",
+  "version": "1.0.0",
+  "description": "Solidity + Git assessment",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "hardhat": "^2.20.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
