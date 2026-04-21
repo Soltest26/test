@@ -9,7 +9,6 @@ describe("Token Contract", function () {
     [owner, addr1, addr2] = await ethers.getSigners();
 
     token = await Token.deploy(1000);
-    await token.deployed();
   });
 
   it("should assign initial supply to owner", async function () {
